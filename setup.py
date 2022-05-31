@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="milspend",
-    version="0.0.2",
-    author="yoshiyasu takefuji",
-    author_email="takefuji@keio.jp",
-    description="A package for visualizing military spending of up to 4 countries",
+    name="covidcasev",
+    version="0.0.1",
+    author="Yugo Ishihara",
+    author_email="s2022041@stu.musashino-u.ac.jp",
+    description="A package for visualizing covid-19's vaccinations and infected people of each countries",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ytakefuji/defense",
+    url="https://github.com/yugo-Ishihara/covidcasev",
     project_urls={
-        "Bug Tracker": "https://github.com/ytakefuji/defense",
+        "Bug Tracker": "https://github.com/yugo-Ishihara/covidcasev",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -21,12 +21,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['milspend'],
+    py_modules=['covidcasev'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
     entry_points = {
         'console_scripts': [
-            'milspend = milspend:main'
+            'covidcasev = covidcasev:main'
         ]
     },
 )
