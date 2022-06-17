@@ -5,7 +5,7 @@
 The OWID dataset is downloadable from:</p>
 https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
 
-
+<img src="https://github.com/yugo-Ishihara/covidcasev/blob/main/result.png">
 
 
 <h1>
