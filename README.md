@@ -1,5 +1,10 @@
 # covidcasev
 
+<h1>
+  Check downloads
+</h1>
+https://pepy.tech/project/covidcasev
+
 <p>The goal of this project is to visualize the number of infected people by country due to Covid-19.</p>
 <p>Using a OWID dataset, covidcasev can visualize the number of infected people by country due to Covid-19.</p>
 The OWID dataset is downloadable from:</p>
