@@ -1,10 +1,5 @@
 # covidcasev
 
-<h1>
-  Check downloads
-</h1>
-https://pepy.tech/project/covidcasev
-
 <p>The goal of this project is to visualize the number of infected people by country due to Covid-19.</p>
 <p>Using a OWID dataset, covidcasev can visualize the number of infected people by country due to Covid-19.</p>
 The OWID dataset is downloadable from:</p>
@@ -23,3 +18,8 @@ $ pip install covidcasev
 </h1>
 $ covidcasev country <br>
 ex. $ covidcasev Japan
+
+<h1>
+  Check downloads
+</h1>
+https://pepy.tech/project/covidcasev
